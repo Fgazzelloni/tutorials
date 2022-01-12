@@ -19,18 +19,19 @@ What is required:
 
 ## Instructor background:
 
-*Federica Gazzelloni* is a Statistician and an Actuary with International experience. She is one of the IHME collaborator, and a coauthor of the Global Burden of Diseases (GBD). Her first language is Italian, she also speaks English in a professional manner. More information about her ongoing projects can be found at: https://github.com/Fgazzelloni
+*Federica Gazzelloni* is a Statistician and an Actuary with International experience. She is one of the IHME collaborator, and a coauthor of the Global Burden of Diseases (GBD). She is a volunteer of the R4DS community .
+More information about her ongoing projects can be found at: https://github.com/Fgazzelloni
 
 *Simina Boca* ...
 
 
 ## Domain:
 
-Data used in the tutorial will be selected from past TidyTuesday and various R packages which make map data available, no spatial knowledge is required.
+Data used in the tutorial will be selected from past TidyTuesday and various R packages which make maps data available, no spatial knowledge is required.
 
 ## Points of appeal:
 
-The application of basic Modeling techniques to Spatial data for making beautiful maps will empower users knowledge and ability in making useful data visualizations. In addition, to become able to present data evolutions through map visualizations will improve strenght on advanced analysis, reducing the time consuming in understanding spatial applications.
+The application of basic Modeling techniques to Spatial data for making beautiful maps will empower users knowledge and ability in making useful data visualizations. In addition, to become able to present data evolutions through map visualizations will improve the strenght on making advanced analysis, and reducing the time consuming in understanding spatial applications but selecting just the important features for the scope. 
 
 ## Learning objectives:
 
@@ -91,6 +92,6 @@ The tutorial will continue with a third session which will be entrirely practice
 
 ## Other considerations:
 
-The participants should have forked the repository, make a project
+The participants should have access to the GitHub repository for the tutorial, and be able to copy and paste the code presented during the tutorial into their own Rstudio workspace, so to be able to use the new dataset provided along with the code.
 
 ***
