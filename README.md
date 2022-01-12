@@ -2,7 +2,7 @@
 
 ## Title:
 
-**Modeling Spatial analysis data visualization: from theory to practice** 
+**Spatial Modeling analysis data visualization: from theory to practice** 
 
 ## Audience:
 
