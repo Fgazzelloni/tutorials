@@ -13,37 +13,35 @@ Please read the [code of conduct](https://user2022.r-project.org/about/coc/) bef
 - English
 
 ## Title: 
-### *Spatial data visualization model analysis: from theory to practice*
+### *Visualization of Spatial data models: from theory to practice*
 
 ## A brief biography of the instructors:
 
-*Federica Gazzelloni* is a Statistician and an Actuary with International experience. She is one of the [IHME](https://www.healthdata.org/) collaborator, and a coauthor of the Global Burden of Diseases (GBD). She is a volunteer of the [R4DS community](https://rfordatascience.slack.com/) where she enjoys tutoring statistics while learning advanced techinques.
-More information about her ongoing-projects can be found at: [github.com/Fgazzelloni](https://github.com/Fgazzelloni)
 
-- LinkedIn profile: [linkedin.com/in/fgazzelloni/](https://www.linkedin.com/in/fgazzelloni/)
-- Twitter: @[fgazzelloni](https://twitter.com/FGazzelloni)
+*Simina Boca* is a Biostatistician in Early Biometrics & Statistical Innovation, Data Science & Artificial Intelligence, R & D, Astrazeneca. Her interests include exploratory data analysis and data visualization, high-dimensional analysis, and data integration.
 
-*Simina Boca* ...
+*Federica Gazzelloni* is a Statistician and an Actuary with international experience. As a collaborator of the [IHME](https://www.healthdata.org/), she is interested in the Global Burden of Diseases (GBD). She is also a volunteer of the [R4DS community](https://rfordatascience.slack.com/) where she enjoys tutoring statistics while learning advanced techniques. More information about her ongoing-projects can be found at: [GithHub repository](https://github.com/Fgazzelloni). Twitter: @[fgazzelloni](https://twitter.com/FGazzelloni)
+
 
 ## The broad topic it covers
 
-### Domains:
+The application of basic modeling techniques to spatial data for making beautiful maps will empower users knowledge and ability in making useful data visualizations. In addition, to become able to present data evolution through map visualizations will improve the strength on making advanced analysis, and reducing the time consuming in understanding spatial applications but selecting just the important features for the scope.
 
-Data used in the tutorial will be selected from past [TidyTuesday](https://github.com/rfordatascience/tidytuesday) and various R packages which make maps data available, no spatial knowledge is required.
-
-### Points of appeal:
-
-The application of basic Modeling techniques to Spatial data for making beautiful maps will empower users knowledge and ability in making useful data visualizations. In addition, to become able to present data evolutions through map visualizations will improve the strenght on making advanced analysis, and reducing the time consuming in understanding spatial applications but selecting just the important features for the scope.
-
-### Learning objectives:
-
-The completition of this tutorial will let the participants to be able to:
+The competition of this tutorial will enable the participants to:
 
 - Manage data for making spatial analysis
 - Apply modeling techniques for spatial analysis
 - Make a spatial model visualization
 
-## Abstract (250 words max)
+
+
+## Abstract
+
+A visualization of spatial data modeling will be presented. The data are selected from the {SpatialEpi} package which contains different data set for modeling the epidemic of leukemia and some specific type of cancers identified in specified locations, such as Scotland, New York, and Pennsylvania. 
+The data sets contain the number of cases, the expected number of cases as well as the geo-data with the latitude and longitude and the polygons for representing the geometry of the locations to be used for making a map.
+A visualization of a spatial model involves making a model of the coordinates to predict an outcome. This type of technique can be used for several purposes, for this tutorial epidemic data will be used, with the aim to understand the pattern of a disease through a map of the cases versus the number of expected cases.
+Some interesting work in the literature of spatial modeling have been made with the use of more complicated models, for example, a Poisson model is suggested for forecasting the epidemic patterns through the use of spatial data visualization, but in this tutorial, a simple linear model will be presented for educational purposes and to make the approach to spatial modeling smoother for all the users. 
+The tutorial will also focus on using {ggplot2} package for spatial data, highlighting basic differences with other packages. To conclude, the visualization will be added with some extra features with the help of {cowplot} package and made available in a .png format. 
 
 
 
@@ -51,65 +49,63 @@ The completition of this tutorial will let the participants to be able to:
 
 ### Audience:
 
-- Basic user of R (less than 1 year of continual experience)
-- Advanced user of R (more than two years of continual experience)
+User of R with less than 1 year of continual experience, will gain confidence as well as direct information on how to make a map and model spatial data.  
+
+The tutorial is also for users with more than two years of continual experience, who are interested in spatial model visualizations.
 
 ### Prerequisites:
 
 - Knowledge of different R data types & structures such as the difference between numeric and character values, what is a data frame and a vector, etc.
-- Knowledge of the difference between base `plot()` function and the use of {ggplot2} package
-- Basic knowledge of modeling with R, such as what is a model, why a model is make, what is an outcome and a predictor
+
+- Knowledge of the difference between the base and the {ggplot2} approaches to data visualizations.
+
+- Basic knowledge of modeling with R, such as what is a model, why models are useful, what is an outcome and a predictor.
+
 - Basic knowledge of a GitHub repository, such as how to get access to data, etc.
 
 ### Computing requirements:
 
-Participants should have a laptop with access to the internet. Installation of R is not required but reccomended; the participants can use RStudio Cloud workspace. A GithHub account would be suggested.
+Participants should have a laptop with access to the internet. Installation of R is not required but recommended; the participants can use RStudio Cloud workspace. A GithHub account would be suggested.
 
 #### Required R Packages:
 
-- {tidyverse} which include {ggplot2} for making data wrangling and visualization
+- {SpatialEpi} package of methods and data for spatial epidemiology
+- {tidyverse} which include {ggplot2} for making data wrangling and visualizations
 - {maps}, {tmap}, {sf}, {rnaturalhearth} for spatials
 - {tidymodels} for modeling
-- {cowplot} and {ragg} for final touches of the Spatial visualization
+- {patchwork}, {cowplot} and {ragg} for final touches of the visualization
+
 
 ## A brief outline of the tutorial
 
-The tutorial will be taken in two main sessions with a break of 15 minutes each. At the end of the second break the tutor will wrap-up the two previous sessions with a final spatial visualization. The tutorial will continue with a third session which will be entrirely practice, the participants will be provided of a new data set, very alike the one presented, and have the chance for making their own Spatial Model Visualization.
+### Session 1 (40 minutes): Manage data for making spatial analysis
 
-***
+- Introduction of the tutorial and the instructors, biographies and the course content that will be used during the course (such as the GihHub repository, the data to use)
+- Introduction to spatial data with {ggplot2} with a visualization of a map made from a dataset selected from {SpatialEpi} package.
+- Advice on different packages for making the same visualization, such as {maps},{sf},{tmap}.
 
-### Session 1 (40 minutes):
+**Break 15 minutes & QA**
 
-- Intro to the GitHub repository, and the contents that will be used during the tutorial
-- Intro to Spatial with ggplot2
-- Overwiew of the available packages for doing Spatials with ggplot2
-- Example of Spatial DataViz
+### Session 2 (40 minutes): Apply modeling techniques for spatial analysis
 
-**Break 15 minutes**
+- Introduction to modeling with RStudio, base R modeling, liner models structure 
+- Advice on how to use {tidymodels} for eventually use different types of models
+- Example of spatial model
 
-### Session 2 (40 minutes):
+**Break 15 minutes & QA**
 
-- Intro to Modeling with RStudio
-- Overview of the available packages for Modeling with RStudio
-- Example of Modeling
+### Wrap-up (10 minutes): Make a spatial model visualization
 
-**Break 15 minutes**
-
-### Wrap-up (10 minutes):
-
-🎣 Final touches with {cowplot} and save the sample Spatial Visualization of the Spatial data visualization model analysis.
+🎣 Make the map visualization, add final touches with {cowplot} and save it as .png file.
 
 ### Participants Pratice session (30 minutes):
 
 - Access to the GitHub tutorial repository: https://github.com/Fgazzelloni/tutorials
-- Open up the data folder for downloading the .csv file (the data set is in a tidy format)
+- Load the data from {SpatialEpi} package
 - Apply the code taught in the previous sessions
 - Save the work on a .png file
 
-***
+## Link to the tutorial materials:
 
-## Other considerations:
+- https://github.com/Fgazzelloni/tutorials
 
-The participants should have access to the GitHub repository for the tutorial, and be able to download data, as well as copy and paste the code presented during the tutorial into their own Rstudio workspace, so to be able to use the new dataset provided for practicing along with provided code.
-
-***
