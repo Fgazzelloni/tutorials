@@ -4,23 +4,27 @@ Submission via the [useR! 2022](https://user2022.r-project.org/) abstract submis
 
 Please read the [code of conduct](https://user2022.r-project.org/about/coc/) before the start of the tutorial.
 
-## Format preferences:
+#### Format preferences:
 
 - virtual, morning/afternoon, length 2 hours and a half
 
-## Language in which the tutorial will be taught:
+#### Language in which the tutorial will be taught:
 
 - English
 
-## Title: 
-### *Visualization of Spatial data models: from theory to practice*
+***
+
+## Title: *Visualization of spatial data models: from theory to practice*
+
+***
 
 ## A brief biography of the instructors:
 
 
-*Simina Boca* is a Biostatistician in Early Biometrics & Statistical Innovation, Data Science & Artificial Intelligence, R & D, Astrazeneca. Her interests include exploratory data analysis and data visualization, high-dimensional analysis, and data integration.
+**Simina Boca** is a Biostatistician in Early Biometrics & Statistical Innovation, Data Science & Artificial Intelligence, R & D, AstraZeneca. Her interests include exploratory data analysis and data visualization, high-dimensional analysis, and data integration.
 
-*Federica Gazzelloni* is a Statistician and an Actuary with international experience. As a collaborator of the [IHME](https://www.healthdata.org/), she is interested in the Global Burden of Diseases (GBD). She is also a volunteer of the [R4DS community](https://rfordatascience.slack.com/) where she enjoys tutoring statistics while learning advanced techniques. More information about her ongoing-projects can be found at: [GithHub repository](https://github.com/Fgazzelloni). Twitter: @[fgazzelloni](https://twitter.com/FGazzelloni)
+
+**Federica Gazzelloni** is a Statistician and an Actuary with interest in Advanced Statistical Methods for data modeling, in public health. She a collaborator of the IHME for the GBD studies. Her volunteering activity with the R4DS community involves practicing using R for teaching and making data visualizations.
 
 
 ## The broad topic it covers
@@ -37,11 +41,11 @@ The competition of this tutorial will enable the participants to:
 
 ## Abstract
 
-A visualization of spatial data modeling will be presented. The data are selected from the {SpatialEpi} package which contains different data set for modeling the epidemic of leukemia and some specific type of cancers identified in specified locations, such as Scotland, New York, and Pennsylvania. 
-The data sets contain the number of cases, the expected number of cases as well as the geo-data with the latitude and longitude and the polygons for representing the geometry of the locations to be used for making a map.
-A visualization of a spatial model involves making a model of the coordinates to predict an outcome. This type of technique can be used for several purposes, for this tutorial epidemic data will be used, with the aim to understand the pattern of a disease through a map of the cases versus the number of expected cases.
-Some interesting work in the literature of spatial modeling have been made with the use of more complicated models, for example, a Poisson model is suggested for forecasting the epidemic patterns through the use of spatial data visualization, but in this tutorial, a simple linear model will be presented for educational purposes and to make the approach to spatial modeling smoother for all the users. 
-The tutorial will also focus on using {ggplot2} package for spatial data, highlighting basic differences with other packages. To conclude, the visualization will be added with some extra features with the help of {cowplot} package and made available in a .png format. 
+A visualization of spatial data modeling will be presented. The data are selected from the {SpatialEpi} package which includes statistics on cancer cases in a number of locations, including Scotland, New York, and Pennsylvania.
+The data sets contain the number of cases, the expected values as well as the geo-data with the latitude, longitude, and polygons for representing the geometry of the locations to be used for making a map.
+A visualization of a spatial model involves making a model of the coordinates for predicting an outcome. This type of technique can be used for several purposes. For this tutorial cancer data will be used, with the aim to understand the pattern of a disease through a map of the observed cases versus the number of predicted cases.
+In this tutorial, a simple linear model will be presented for educational purposes and to make the approach to spatial modeling straightforward for all the users.
+The tutorial will also focus on using {ggplot2} package for spatial data, highlighting basic differences with other packages. To conclude, additional visualization features from the {cowplot} package will be discussed and the final visualization will be saved as .png file.
 
 
 
@@ -49,23 +53,23 @@ The tutorial will also focus on using {ggplot2} package for spatial data, highli
 
 ### Audience:
 
-User of R with less than 1 year of continual experience, will gain confidence as well as direct information on how to make a map and model spatial data.  
+The tutorial is for users with more than one year of continual experience, who are interested in spatial model visualizations.
 
-The tutorial is also for users with more than two years of continual experience, who are interested in spatial model visualizations.
 
 ### Prerequisites:
 
-- Knowledge of different R data types & structures such as the difference between numeric and character values, what is a data frame and a vector, etc.
+-	Knowledge of different R data types & structures such as the difference between numeric and character values, what is a data frame and a vector, etc.
 
-- Knowledge of the difference between the base and the {ggplot2} approaches to data visualizations.
+-	Knowledge of the difference between the base and the {ggplot2} approaches to data visualizations.
 
-- Basic knowledge of modeling with R, such as what is a model, why models are useful, what is an outcome and a predictor.
+-	Basic knowledge of modeling with R, such as what is a model, why models are useful, what is an outcome and a predictor.
 
-- Basic knowledge of a GitHub repository, such as how to get access to data, etc.
+-	Basic knowledge of a GitHub repository, such as how to get access to data, etc.
+
 
 ### Computing requirements:
 
-Participants should have a laptop with access to the internet. Installation of R is not required but recommended; the participants can use RStudio Cloud workspace. A GithHub account would be suggested.
+Participants should have a laptop with access to the internet. Installation of R is not required but recommended; the participants can use RStudio Cloud workspace. 
 
 #### Required R Packages:
 
