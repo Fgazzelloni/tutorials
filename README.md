@@ -24,7 +24,7 @@ Please read the [code of conduct](https://user2022.r-project.org/about/coc/) bef
 **Simina Boca** is a Biostatistician in Early Biometrics & Statistical Innovation, Data Science & Artificial Intelligence, R & D, AstraZeneca. Her interests include exploratory data analysis and data visualization, high-dimensional analysis, and data integration.
 
 
-**Federica Gazzelloni** is a Statistician and an Actuary with interest in Advanced Statistical Methods for data modeling, in public health. She a collaborator of the IHME for the GBD studies. Her volunteering activity with the R4DS community involves practicing using R for teaching and making data visualizations.
+**Federica Gazzelloni** is a Statistician and an Actuary with interest in Advanced Statistical Methods for data modeling, in public health. She is a collaborator of the IHME for the GBD studies. Her volunteering activity with the R4DS community involves practicing using R for teaching and making data visualizations.
 
 
 ## The broad topic it covers
